@@ -1,10 +1,13 @@
-# Install
+### Install
 
+``` bash
 composer require cast/oauth
+```
 
-# Envs
+### Envs
 
+``` bash
 BESTCHAIN_OAUTH_BITBUCKET_CLIENT_ID=
 BESTCHAIN_OAUTH_BITBUCKET_SECRET=
 BESTCHAIN_OAUTH_BITBUCKET_REDIRECT=
-
+```
