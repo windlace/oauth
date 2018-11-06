@@ -2,6 +2,6 @@
 
 return [
 
-    'route_prefix' => env('BESTCHAIN_OAUTH_ROUTE_PREFIX', 'oauth'),
+    'route_prefix' => env('CAST_OAUTH_ROUTE_PREFIX', 'oauth'),
 
 ];
