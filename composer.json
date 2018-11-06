@@ -1,0 +1,23 @@
+{
+    "name": "cast/oauth",
+    "description": "OAuth2.0 module for Laravel.",
+    "type": "library",
+    "keywords": ["laravel","oauth"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "laravel/socialite": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cast\\OAuth\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cast\\OAuth\\OAuthServiceProvider"
+            ]
+        }
+    }
+}
